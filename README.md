@@ -13,7 +13,7 @@ It requires JRE 1.7 or higher version to run. JUnit4 is used for writing test ca
 * Go into subdirectories : "..\PrimeNumberTable\out\artifacts\PrimeNumberTable_jar"
 	 - Example : The terminal should point to this location "C:\PrimeNumberTable\out\artifacts\PrimeNumberTable_jar"
 * Run the following command:
-	java -jar PrimeNumberTable.jar
+	- java -jar PrimeNumberTable.jar
 
 	
 * The program asks for an input to determine the list of prime numbers.

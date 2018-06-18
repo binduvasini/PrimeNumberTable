@@ -5,13 +5,13 @@ This program is written in Java. The class files are compiled into an executable
 It requires JRE 1.7 or higher version to run. JUnit4 is used for writing test cases.
 
 
-## Running Instructions:
+### Running Instructions:
 
 * Clone the repository locally.
 * Open terminal/commandPrompt and navigate to the saved file location.
-	- For example, if the unzipped contents are stored in "C:\Files", go to this location "C:\Files\FCCodingChallenge" in terminal
-* Go into subdirectories : "..\FCCodingChallenge\PrimeNumberTable\out\artifacts\PrimeNumberTable_jar"
-	 - Example : The terminal should point to this location "C:\Files\FCCodingChallenge\PrimeNumberTable\out\artifacts\PrimeNumberTable_jar"
+	- For example, if the repository is stored in "C:\", go to this location "C:\PrimeNumberTable" in terminal
+* Go into subdirectories : "..\PrimeNumberTable\out\artifacts\PrimeNumberTable_jar"
+	 - Example : The terminal should point to this location "C:\PrimeNumberTable\out\artifacts\PrimeNumberTable_jar"
 * Run the following command:
 	java -jar PrimeNumberTable.jar
 
@@ -23,7 +23,7 @@ It requires JRE 1.7 or higher version to run. JUnit4 is used for writing test ca
 * Enter 'y' or 'n' accordingly and hit <return/enter> key. 'y' will ask for another input and 'n' will terminate the program
 
 
-## Runtime Analysis:
+### Runtime Analysis:
 
 The overall complexity of this program is O(n squared) where n is the number of primes to display.
 Since we are displaying a product of every value in the row and every value in the column, we need to iterate through same array twice.
@@ -35,11 +35,11 @@ For space efficiency, StringBuffer is used in the table construction.
 As with large input size, this program scales with O(n squared) complexity.
 
 
-## Test cases:
+### Test cases:
 
 I followed TDD approach of adding a test, running all tests and seeing if the new one fails, refactoring the code, running test cases and repeating the process.
 
 
-## Source code and JUnit test cases are at "..\FCCodingChallenge\PrimeNumberTable\src\com\fc\prime"
+### Source code and JUnit test cases are at "..\PrimeNumberTable\src\com\fc\prime"
 * PrimeTable.java
 * PrimeTableTest.java

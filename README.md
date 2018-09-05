@@ -25,14 +25,14 @@ It requires JRE 1.7 or higher version to run. JUnit4 is used for writing test ca
 
 ### Runtime Analysis:
 
-The overall complexity of this program is O(n squared) where n is the number of primes to display.
+The overall complexity of this program is O(n^2) where n is the number of primes to display.
 Since we are displaying a product of every value in the row and every value in the column, we need to iterate through same array twice.
 
-The other algorithm that generates the list of primes takes O(n). This is added to O(n squared), but we can ignore the lower order term.
+The other algorithm that generates the list of primes takes O(n). This is added to O(n^2), but we can ignore the lower order term.
 
 For space efficiency, StringBuffer is used in the table construction.
 
-As with large input size, this program scales with O(n squared) complexity.
+As with large input size, this program scales with O(n^2) complexity.
 
 
 ### Test cases:
